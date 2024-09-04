@@ -1,16 +1,12 @@
-// /frontend/src/App.js
-
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import AppRoutes from './routes'; // Importer le fichier routes.js
+import Navbar from './components/Navbar';
 
-const App = () => {
+
+function App() {
   return (
-    <Router>
-      <div className="app-container">
-        <AppRoutes /> {/* Utiliser les routes définies dans routes.js */}
-      </div>
-    </Router>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
