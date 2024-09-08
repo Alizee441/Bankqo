@@ -78,17 +78,17 @@ const HomePage = () => {
       <Title>Bienvenue chez Banqko</Title>
       <Subtitle>Votre partenaire bancaire de confiance</Subtitle>
       <FeatureContainer>
-        <Feature href="#create-account">
+        <Feature href="/creer-compte">
           <i className="fas fa-user-plus"></i>
           <h3>Créer un compte</h3>
           <p>Ouvrez un nouveau compte en quelques minutes.</p>
         </Feature>
-        <Feature href="#manage-account">
+        <Feature href="/operations">
           <i className="fas fa-user"></i>
           <h3>Gérer mon compte</h3>
           <p>Accédez à toutes les fonctionnalités de votre compte.</p>
         </Feature>
-        <Feature href="#check-balance">
+        <Feature href="/consulter-solde">
           <i className="fas fa-wallet"></i>
           <h3>Consulter le solde</h3>
           <p>Visualisez le solde et les transactions de votre compte.</p>
